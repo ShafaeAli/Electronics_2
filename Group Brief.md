@@ -8,8 +8,8 @@
 
 **Assessment**
 
-- **Presentation** by "each" project team to an assessor in the morning of Wednesday 20 March 2019
-- Take part in a **&quot;Coming Dance&quot; competition** and showcase each team&#39;s design
+- **Presentation** by each project team to an assessor in the morning of Wednesday 20 March 2019
+- Take part in a **"Coming Dance" competition** and showcase each team&#39;s design
 
 **Milestones**
 
