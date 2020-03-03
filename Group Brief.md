@@ -13,14 +13,14 @@
 
 **Milestones**
 
-1. **Control of the Segway – 20** **Feb - COMPLETED**
+1. **Control of the Segway – 20 Feb - COMPLETED**
   1. Drive the Segway with a stabilizer along a defined path using a Bluetooth controller
   2. Use stabilizer and later implement self-balancing
 
-1. **Detects beats and flash LEDs – 27** **Feb**
+1. **Detects beats and flash LEDs – 27 Feb - COMPLETED**
   1. Analyse the music using the microphone on the PyBench and detect when the beat occurs – Flash LEDs to indicate beats
 
-1. **Simple dance with stabilizer – 6** **March**
+1. **Simple dance with stabilizer – 6 March**
   1. Analyse Staying Alive and Lose Yourself to Dance
   2. Create simple dance routines
   3. Transfer to the PyBench to store on the SD card and write a Python program to control the Segway with stabilizer so that it moves to music
