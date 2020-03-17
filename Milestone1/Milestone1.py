@@ -1,7 +1,7 @@
 import pyb
 from pyb import Pin, Timer, ADC, UART
-import motor
-from motor import MOTOR
+import motor2
+from motor2 import MOTOR
 
 motor_right=MOTOR()
 motor_left=MOTOR()
@@ -16,20 +16,20 @@ while True:
     command = uart.read(10)
     
     if command[2]==ord('5'):
-        motor_right.A_forward(50)
-        motor_left.B_forward(50)
+        motor_right.A_forward(40)
+        motor_left.B_forward(40)
     
     elif command[2] == ord('6'):
-        motor_right.A_back(50)
-        motor_left.B_back(50)
+        motor_right.A_back(40)
+        motor_left.B_back(40)
     
     elif command[2] == ord('7'):
         motor_right.A_forward(30)
-        motor_left.B_back(30)
+        motor_left.B_back(20)
     
     elif command[2] == ord('8'):        
         motor_right.A_back(30)
-        motor_left.B_forward(30)
+        motor_left.B_forward(20)
         
     elif command[2] == ord('1'):        
         motor_right.A_stop()
